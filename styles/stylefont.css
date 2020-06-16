@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'NotoSans';
+    src: url('../font/NotoSansCJKsc-Black.otf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura std';
+    src: url('../font/Futura Std Bold.otf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

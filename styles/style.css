@@ -1,0 +1,426 @@
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.page {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    font-weight: 900;
+    font-family: 'NotoSans', Arial, sans-serif;
+
+    background-color: #6a3505;
+}
+
+@media all and (max-width: 399px) {
+    .page {
+        font-size: 3px;
+    }
+}
+
+@media all and (min-width: 400px) and (max-width: 519px) {
+    .page {
+        font-size: 4px;
+    }
+}
+
+@media all and (min-width: 520px) and (max-width: 699px) {
+    .page {
+        font-size: 5px;
+    }
+}
+
+@media all and (min-width: 700px) and (max-width: 899px) {
+    .page {
+        font-size: 7px;
+    }
+}
+
+@media all and (min-width: 900px) and (max-width: 999px) {
+    .page {
+        font-size: 9px;
+    }
+}
+
+@media all and (min-width: 1000px) and (max-width: 1099px) {
+    .page {
+        font-size: 10px;
+    }
+}
+
+@media all and (min-width: 1100px) and (max-width: 1199px) {
+    .page {
+        font-size: 11px;
+    }
+}
+
+@media all and (min-width: 1200px) and (max-width: 1299px) {
+    .page {
+        font-size: 12px;
+    }
+}
+
+@media all and (min-width: 1300px) and (max-width: 1399px) {
+    .page {
+        font-size: 13px;
+    }
+}
+
+@media all and (min-width: 1400px) and (max-width: 1599px) {
+    .page {
+        font-size: 14px;
+    }
+}
+
+@media all and (min-width: 1600px) and (max-width: 1919px) {
+    .page {
+        font-size: 16px;
+    }
+}
+
+@media all and (min-width: 1920px) and (max-width: 1999px) {
+    .page {
+        font-size: 19px;
+    }
+}
+
+@media all and (min-width: 2000px) {
+    .page {
+        font-size: 21px;
+    }
+}
+
+.bar__wrapper {
+    position: relative;
+
+    width: 90%;
+    height: 0;
+    padding-bottom: 8.72%;
+    padding-left: 4.5%;
+
+    background-image: url("../images/panel_bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    width: 100%;
+    padding: 0 4.96% 0 5.12%;
+    display: grid;
+    /*grid-template-columns: 4.42% 15.44% 8.07% 35% 6.517% 21.57%;*/
+    grid-template-columns: [info_start] 4.92% [info_end] 0.3% [totalbet_start] 17.18% [totalbet_end] 0.14% [coin_start] 8.98% [coin_end] 36.7% [turbo_start] 7.25% [turbo_end] 0.46% [right_start] 24.01% [right_end];
+    justify-content: space-between;
+    align-items: center;
+}
+.button {
+    margin: 0;
+
+    border: none;
+    background-color: transparent;
+
+    cursor: pointer;
+    outline: none;
+}
+
+.button,
+.button::before,
+.totalbet,
+.coin,
+.win,
+.turbo,
+.turbo__button,
+.auto__title,
+.auto__list,
+.li--icon::before,
+.spin {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.info {
+    grid-column: info_start / info_end;
+}
+
+.info,
+.totalbet__button {
+    position: relative;
+
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+
+    background-image: url("../images/info_sign_bg_normal.png");
+    border-radius: 50%;
+}
+
+.info:hover {
+    background-image: url("../images/info_sign_bg_hover.png");
+}
+
+.info:active {
+    background-image: url("../images/info_sign_bg_click.png");
+}
+
+.info:disabled {
+    background-image: url("../images/info_sign_bg_disable.png");
+    cursor: default;
+}
+
+.info::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 19.29%;
+    height: 59.65%;
+
+    background-image: url("../images/info_sign.png");
+    background-position: center;
+
+    transform: translate(-50%, -50%);
+    content: '';
+}
+
+.info:disabled .info__icon {
+    background-image: url("../images/info_sign_bg_disable.png");
+}
+
+.totalbet {
+    display: grid;
+    grid-template-columns: 21.6% 42.21% 21.6%;
+    justify-content: space-between;
+    align-items: center;
+    grid-auto-flow: column;
+    padding: 3%;
+    grid-column: totalbet_start / totalbet_end;
+
+    white-space: nowrap;
+
+    background-image: url("../images/bg_totalbet.png");
+}
+
+.totalbet__button {
+    grid-row: span 2;
+
+    background-image: url("../images/minus_bg_normal.png");
+}
+
+.totalbet__button::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 45%;
+    height: 45%;
+
+    background-position: center;
+
+    transform: translate(-50%, -50%);
+    content: '';
+}
+
+.totalbet__button--minus::before {
+    background-image: url("../images/minus.png");
+}
+
+.totalbet__button--plus::before {
+    background-image: url("../images/plus.png");
+}
+
+.totalbet__title,
+.coin__title {
+    font-size: 1em;
+    color: #ff6972;
+    line-height: 1em;
+    text-align: center;
+    text-shadow: 0px 4px 0px rgba(78, 0, 5, 0.4);
+}
+
+.totalbet__value,
+.coin__value,
+.win__title {
+    color: #ffd100;
+    /*font-size: 29px;*/
+    font-size: 1.21em;
+    text-align: center;
+    text-shadow: 0px 4px 0px rgba(113, 0, 8, 0.4);
+}
+
+.coin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-column: coin_start / coin_end;
+
+    padding: 10.57%;
+
+    white-space: nowrap;
+
+    background-image: url("../images/bg_coin.png");
+}
+
+.win {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-column: coin_end / turbo_start;
+    padding: 4% 2% 6%;
+    width: 100%;
+    height: 100%;
+
+    white-space: nowrap;
+
+    background-image: url("../images/win_bg.png");
+
+    transform: scale(1.03);
+}
+
+.win__title {
+    font-size: 3em;
+    line-height: 1em;
+}
+
+.turbo {
+    position: relative;
+
+    display: block;
+    width: 100%;
+    height: 0;
+    grid-column: turbo_start / turbo_end;
+    padding-bottom: 63.09%;
+    background-image: url("../images/rurbo_on.png");
+}
+
+.turbo__check {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.turbo__button {
+    position: absolute;
+    left: 4%;
+    top: 4%;
+
+    width: 93%;
+    padding: 9.9% 15.8%;
+
+    font-size: 1em;
+    text-align: center;
+    color: #3d0000;
+    text-shadow: 0px 2px 0px rgba(255, 198, 0, 0.4);
+
+    background-image: url("../images/turbo_btn_normal.png");
+    cursor: pointer;
+}
+
+.turbo__check:checked + .turbo {
+    background-image: url("../images/turbo_off.png");
+}
+
+.turbo__check:checked + .turbo .turbo__button {
+    top: auto;
+    bottom: 0;
+}
+
+.right-block {
+    position: relative;
+    width: 100%;
+    grid-column: right_start / right_end;
+}
+
+.auto {
+    position: relative;
+    width: 72%;
+}
+
+.auto__title {
+    position: relative;
+    z-index: 5;
+
+    display: block;
+    padding: 9.2% 17.41%;
+    
+    font-size: 1.375em;
+    color: #3d0000;
+    text-align: left;
+    text-shadow: 0px 2px 0px rgba(255, 198, 0, 0.004);
+
+    background-image: url("../images/features_normal.png");
+    cursor: pointer;
+ }
+
+
+.auto__list {
+    position: absolute;
+    left: 2%;
+    bottom: -10%;
+    z-index: 1;
+
+    display: none;
+    margin: 0;
+    padding: 28% 8% 33%;
+    width: 98%;
+    list-style: none;
+
+    white-space: nowrap;
+
+    background-image: url("../images/spinselect_box_bg.png");
+
+    cursor: pointer;
+}
+
+.auto__list li {
+    font-size: 1.33em;
+    text-shadow: 0px 2px 0px rgba(113, 0, 8, 0.4);
+    color: #ffd100;
+
+    cursor: pointer;
+}
+
+.li--icon {
+    display: flex;
+    align-items: center;
+}
+
+.li--icon::before {
+    display: block;
+    width: 1em;
+    height: 1em;
+    margin-right: 0.28em;
+
+    background-image: url("../images/icon_feature.png");
+    content: '';
+}
+
+.spin {
+    position: absolute;
+    right: 0;
+    top: -170%;
+    z-index: 10;
+
+    width: 63.3%;
+    height: 0;
+    padding-bottom: 100%;
+
+    border-radius: 50%;
+
+    background-image: url("../images/btn_normal.png");
+}
