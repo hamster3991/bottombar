@@ -141,12 +141,11 @@
 .totalbet,
 .coin,
 .win,
-.turbo,
 .turbo__button,
-.auto__title,
 .auto__list,
 .li--icon::before,
-.spin {
+.spin,
+.spin__ico {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -220,6 +219,19 @@
     background-image: url("../images/minus_bg_normal.png");
 }
 
+.totalbet__button:hover {
+    background-image: url("../images/minus_bg_hover.png");
+}
+
+.totalbet__button:active {
+    background-image: url("../images/minus_bg_click.png");
+}
+
+.totalbet__button:disabled {
+    background-image: url("../images/minus_bg_disable.png");
+    cursor: default;
+}
+
 .totalbet__button::before {
     position: absolute;
     top: 50%;
@@ -240,6 +252,14 @@
 
 .totalbet__button--plus::before {
     background-image: url("../images/plus.png");
+}
+
+.totalbet__button:disabled .totalbet__button--minus::before {
+    background-image: url("../images/minus_disabled.png");
+}
+
+.totalbet__button:disabled .totalbet__button--plus::before {
+    background-image: url("../images/plus_disabled.png");
 }
 
 .totalbet__title,
@@ -331,6 +351,22 @@
     cursor: pointer;
 }
 
+.turbo__button:hover {
+    background-image: url("../images/turbo_btn_hover.png");
+}
+
+.turbo__button:active {
+    background-image: url("../images/turbo_btn_click.png");
+}
+
+.turbo__check:disabled + .turbo .turbo__button {
+    color: rgba(61, 0, 0, 0.4);
+    text-shadow: 0px 2px 0px rgba(255, 198, 0, 0.4);
+
+    background-image: url("../images/turbo_btn_disable.png");
+    cursor: default;
+}
+
 .turbo__check:checked + .turbo {
     background-image: url("../images/turbo_off.png");
 }
@@ -367,6 +403,21 @@
     cursor: pointer;
  }
 
+.auto:hover .auto__title {
+    background-image: url("../images/features_hover.png");
+}
+
+.auto:active .auto__title {
+    background-image: url("../images/features_click.png");
+}
+
+.auto[disabled] .auto__title {
+    color: rgba(61, 0, 0, 0.4);
+    text-shadow: 0px 2px 0px rgba(255, 198, 0, 0.4);
+
+    background-image: url("../images/features_disable.png");
+    cursor: default;
+}
 
 .auto__list {
     position: absolute;
@@ -423,4 +474,35 @@
     border-radius: 50%;
 
     background-image: url("../images/btn_normal.png");
+}
+
+.spin:hover {
+    background-image: url("../images/btn_hover.png");
+}
+
+.spin:active {
+    background-image: url("../images/btn_click.png");
+}
+
+.spin:disabled {
+    background-image: url("../images/btn_disable.png");
+    cursor: default;
+}
+
+.spin__ico {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 67.33%;
+    height: 0;
+    padding-bottom: 100%;
+
+    background-image: url("../images/btn_spin_norm.png");
+
+    transform: translate(-50%, -50%);
+}
+
+.spin:disabled .spin__ico {
+    background-image: url("../images/btn_spin_dis.png");
 }

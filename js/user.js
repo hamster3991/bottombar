@@ -1,16 +1,24 @@
 jQuery(function () {
     let list = $('.auto__list');
 
+    const clickSound = new Audio;
+    clickSound.src = "sounds/Button_Click.wav";
+
     $('.auto').on('mouseover', function() {
-        console.log('open');
-        if (list.is(":hidden")) {
+        if (list.is(":hidden") && $(this).attr("disabled") != "disabled") {
             list.show();
         }
-        //ul.slideDown(600); // раскрываем блок
     });
 
     $('.auto').on('mouseout', function() {
         list.hide();
-        //ul.slideUp(600); // раскрываем блок
+    });
+
+    /*$('.spin').on('click', function () {
+        console.log('spin');
+    });*/
+
+    $('.button').on('click', function () {
+        clickSound.play();
     });
 });
