@@ -2,57 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba02db31-a281-44bb-bce8-3b0a8ef252b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sounds/Button_Click.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/arrow_disabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/arrow_disabled.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg_totalbet.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/bg_totalbet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/btn_center_click.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/btn_center_click.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/btn_center_disable.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/btn_center_disable.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/btn_center_hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/btn_center_hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/btn_click.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/btn_click.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/btn_disable.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/btn_disable.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/btn_hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/btn_hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/btn_left_click.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/btn_left_click.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/btn_left_disable.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/btn_left_disable.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/btn_left_hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/btn_left_hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/btn_normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/btn_normal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/btn_right_click.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/btn_right_click.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/btn_right_disable.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/btn_right_disable.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/btn_right_hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/btn_right_hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/btn_spin_dis.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/btn_spin_dis.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/close_sign.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/close_sign.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/features_click.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/features_click.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/features_disable.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/features_disable.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/features_hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/features_hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/features_normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/features_normal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_feature.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/icon_feature.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/info_sign.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/info_sign.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/info_sign_bg_click.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/info_sign_bg_click.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/info_sign_bg_disable.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/info_sign_bg_disable.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/info_sign_bg_hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/info_sign_bg_hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/info_sign_bg_normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/info_sign_bg_normal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/info_sign_disable.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/info_sign_disable.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/minus.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/minus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/minus_bg_click.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/minus_bg_click.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/minus_bg_disable.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/minus_bg_disable.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/minus_bg_hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/minus_bg_hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/minus_bg_normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/minus_bg_normal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/minus_disabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/minus_disabled.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/panel_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/panel_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/plus.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/plus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/plus_disabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/plus_disabled.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rurbo_on.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/rurbo_on.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/small-panel_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-panel_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/spincounter_blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/spincounter_blue.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/spincounter_red.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/spincounter_red.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/spinselect_box_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/spinselect_box_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/turbo_btn_click.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/turbo_btn_click.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/turbo_btn_disable.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/turbo_btn_disable.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/turbo_btn_hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/turbo_btn_hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/turbo_btn_normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/turbo_btn_normal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/turbo_off.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/turbo_off.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/win_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/win_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-3.5.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,12 +22,14 @@
     <session id="-1178890398">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.65" value="2" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -91,18 +48,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="2065" />
-          <entry key="html" value="442" />
-          <entry key="js" value="196" />
-          <entry key="txt" value="73" />
+          <entry key="css" value="2158" />
+          <entry key="html" value="481" />
+          <entry key="js" value="1317" />
+          <entry key="txt" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="2065" />
-          <entry key="HTML" value="442" />
-          <entry key="JavaScript" value="196" />
-          <entry key="PLAIN_TEXT" value="73" />
+          <entry key="CSS" value="2158" />
+          <entry key="HTML" value="481" />
+          <entry key="JavaScript" value="1317" />
+          <entry key="PLAIN_TEXT" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -117,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+            <state relative-caret-position="782">
+              <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -126,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="140" column="10" lean-forward="true" selection-start-line="140" selection-start-column="10" selection-end-line="140" selection-end-column="10" />
+            <state relative-caret-position="153">
+              <caret line="517" column="25" selection-start-line="517" selection-start-column="15" selection-end-line="517" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -135,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="238">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -162,6 +119,7 @@
       <find>win</find>
       <find>2%</find>
       <find>turbo</find>
+      <find>auto__list</find>
     </findStrings>
     <replaceStrings>
       <replace>.page</replace>
@@ -204,6 +162,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,7 +189,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,6 +223,9 @@
       <workItem from="1592244290196" duration="6322000" />
       <workItem from="1592286954726" duration="15266000" />
       <workItem from="1592320206575" duration="3041000" />
+      <workItem from="1592323374907" duration="99000" />
+      <workItem from="1592417558526" duration="7019000" />
+      <workItem from="1592497461919" duration="3292000" />
     </task>
     <task id="LOCAL-00001" summary="base markup, styles">
       <created>1592313903912</created>
@@ -280,16 +241,24 @@
       <option name="project" value="LOCAL" />
       <updated>1592322876140</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="optimize images">
+      <created>1592323431558</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592323431559</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29559000" />
+    <option name="totallyTimeSpent" value="39969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -300,8 +269,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -344,7 +313,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="base markup, styles" />
     <MESSAGE value="styled hover, active, disabled states&#10;add click sound" />
-    <option name="LAST_COMMIT_MESSAGE" value="styled hover, active, disabled states&#10;add click sound" />
+    <MESSAGE value="optimize images" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimize images" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../lorem/js/user.js">
@@ -361,24 +331,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+        <state relative-caret-position="153">
+          <caret line="517" column="25" selection-start-line="517" selection-start-column="15" selection-end-line="517" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="140" column="10" lean-forward="true" selection-start-line="140" selection-start-column="10" selection-end-line="140" selection-end-column="10" />
+        <state relative-caret-position="782">
+          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="238">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>

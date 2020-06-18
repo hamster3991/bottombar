@@ -446,6 +446,10 @@
     cursor: pointer;
 }
 
+.auto__list li:hover {
+    color: white;
+}
+
 .li--icon {
     display: flex;
     align-items: center;
@@ -505,4 +509,17 @@
 
 .spin:disabled .spin__ico {
     background-image: url("../images/btn_spin_dis.png");
+}
+
+.spin__ico.stop {
+    background-image: url("../images/stop.png");
+}
+
+.spin:disabled .spin__ico.stop {
+    background-image: url("../images/stop_disabled.png");
+}
+
+.spin .spin__ico.rotate {
+    transition: 2s;
+    transform: translate(-50%, -50%) rotate(-720deg);
 }
